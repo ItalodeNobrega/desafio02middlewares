@@ -56,7 +56,7 @@ describe('Users', () => {
 
     expect(response.body).toMatchObject({
       name: 'John Doe',
-      username: 'johndoe3',
+      username: 'johndoe1',
       todos: [],
       pro: false
     })
